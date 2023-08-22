@@ -1,3 +1,19 @@
+xbitmaps (1.1.1-2.2) unstable; urgency=medium
+
+  * Non-maintainer upload
+
+  [ Julien Cristau ]
+  * Don't use dh_testroot in debian/rules clean.
+  * Update upstream URL in debian/watch to use https.
+  * Update Vcs-* control fields to use https.
+
+  [ Paul Gevers ]
+  * Bump debhelper compat level to 11 (highest one not requiring other
+    changes) (Closes: #965878)
+  * Update Vcs-* control fields to salsa
+
+ -- Paul Gevers <elbrus@debian.org>  Wed, 12 Oct 2022 21:10:53 +0200
+
 xbitmaps (1.1.1-2.1) unstable; urgency=medium
 
   * Non maintainer upload by the Reproducible Builds team.
